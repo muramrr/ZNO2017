@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "943578083583",
+    "firebase_url": "https://admob-app-id-7040218561-3c553.firebaseio.com",
+    "project_id": "admob-app-id-7040218561-3c553",
+    "storage_bucket": "admob-app-id-7040218561-3c553.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943578083583:android:49f525674c756cef",
+        "android_client_info": {
+          "package_name": "com.wZNO2017"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "943578083583-dfnnga90q6h3ppb1kjhh90440m0db26m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC17ODzwJq2giLRhThIGhymn0YdVFdcSSU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943578083583:android:09f11455bb521ee3",
+        "android_client_info": {
+          "package_name": "com.muram4ik.zno2017"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "943578083583-dfnnga90q6h3ppb1kjhh90440m0db26m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC17ODzwJq2giLRhThIGhymn0YdVFdcSSU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

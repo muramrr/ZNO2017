@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">943578083583-dfnnga90q6h3ppb1kjhh90440m0db26m.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://admob-app-id-7040218561-3c553.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">943578083583</string>
+    <string name="google_api_key" translatable="false">AIzaSyC17ODzwJq2giLRhThIGhymn0YdVFdcSSU</string>
+    <string name="google_app_id" translatable="false">1:943578083583:android:09f11455bb521ee3</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC17ODzwJq2giLRhThIGhymn0YdVFdcSSU</string>
+    <string name="google_storage_bucket" translatable="false">admob-app-id-7040218561-3c553.appspot.com</string>
+</resources>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="flowingdrawer-core-1.2.5">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/8837605653345a459deb138ddbc4e62700e31717/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/8837605653345a459deb138ddbc4e62700e31717/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mxn.soul/flowingdrawer-core/1.2.5/77407904ae447d7271cdc533d8c6cf439434e00a/flowingdrawer-core-1.2.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

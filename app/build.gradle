@@ -1,0 +1,63 @@
+apply plugin: 'com.android.application'
+apply plugin: 'org.moallemi.advanced-build-version'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'mr.anderson'
+            keyPassword 'Siberiav2'
+            storeFile file('C:/Users/Anderson/android_key_for_apk.jks')
+            storePassword 'Siberiav2'
+        }
+    }
+    advancedVersioning {
+        codeOptions {
+            versionCodeType org.moallemi.gradle.internal.VersionCodeType.JALALI_DATE
+            dependsOnTasks 'release', 'assemble'
+        }
+        nameOptions {
+            versionMajor 1
+            versionMinor 4
+            versionPatch 1
+            versionBuild 0
+        }
+        outputOptions {
+            renameOutput true
+            nameFormat 'ZNO2017-${buildType}-${versionName}'
+        }
+    }
+    def appVersionName = advancedVersioning.versionName
+    def appVersionCode = advancedVersioning.versionCode
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId "com.muram4ik.zno2017"
+        minSdkVersion 9
+        targetSdkVersion 25
+        versionCode = appVersionCode
+        versionName = appVersionName
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+        debug {
+        }
+    }
+}
+
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:25.1.1'
+    compile 'com.android.support:design:25.1.1'
+    compile 'com.google.android.gms:play-services-ads:9.2.1'
+    compile 'com.google.firebase:firebase-ads:9.4.0'
+    compile 'com.mxn.soul:flowingdrawer-core:1.2.5'
+    compile 'com.nineoldandroids:library:2.4.0'
+}
+apply plugin: 'com.google.gms.google-services'
